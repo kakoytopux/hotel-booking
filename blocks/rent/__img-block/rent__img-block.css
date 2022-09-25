@@ -1,0 +1,15 @@
+.rent__img-block {
+  display: flex;
+  gap: 24px;
+}
+@media screen and (max-width: 1199px) {
+  .rent__img-block {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .rent__img-block {
+    margin-top: 50px;
+    height: 360px;
+  }
+}

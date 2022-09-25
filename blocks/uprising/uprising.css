@@ -1,0 +1,18 @@
+@keyframes uprising {
+  from {
+    top: 50%;
+  }
+  to {
+    top: 81px;
+  }
+}
+@media screen and (max-width: 570px) {
+  @keyframes uprising {
+    from {
+      top: 50%;
+    }
+    to {
+      top: 51px;
+    }
+  }
+}

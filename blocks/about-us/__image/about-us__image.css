@@ -1,0 +1,16 @@
+.about-us__image {
+  width: 384px;
+  height: 576px;
+}
+@media screen and (max-width: 1199px) {
+  .about-us__image {
+    width: 330px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 907px) {
+  .about-us__image {
+    width: 300px;
+    height: 430px;
+  }
+}

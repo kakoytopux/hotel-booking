@@ -1,0 +1,8 @@
+.booking-link_reservation_margin-indent {
+  margin-top: 32px;
+}
+@media screen and (max-width: 907px) {
+  .booking-link_reservation_margin-indent {
+    margin-top: 25px;
+  }
+}

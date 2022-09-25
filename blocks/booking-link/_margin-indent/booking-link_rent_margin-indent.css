@@ -1,0 +1,13 @@
+.booking-link_rent_margin-indent {
+  margin-top: 59px;
+}
+@media screen and (max-width: 907px) {
+  .booking-link_rent_margin-indent {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .booking-link_rent_margin-indent {
+    margin-top: 25px;
+  }
+}

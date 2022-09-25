@@ -1,0 +1,12 @@
+.rent__text-block {
+  margin: 135px 24px 0 0;
+  max-width: 587px;
+}
+@media screen and (max-width: 570px) {
+  .rent__text-block {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

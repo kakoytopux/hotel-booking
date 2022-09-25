@@ -1,0 +1,113 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/about-us/about-us.css);
+@import url(../blocks/about-us/__image/about-us__image.css);
+@import url(../blocks/about-us/__subtitle/about-us__subtitle.css);
+@import url(../blocks/about-us/__text-block/about-us__text-block.css);
+@import url(../blocks/about-us/__title/about-us__title.css);
+
+@import url(../blocks/appearance/appearance.css);
+
+@import url(../blocks/benefit-block/benefit-block.css);
+@import url(../blocks/benefit-block/__image/benefit-block__image.css);
+@import url(../blocks/benefit-block/__subtitle/benefit-block__subtitle.css);
+@import url(../blocks/benefit-block/__text-block/benefit-block__text-block.css);
+@import url(../blocks/benefit-block/__title/benefit-block__title.css);
+
+@import url(../blocks/benefit/benefit.css);
+
+@import url(../blocks/booking-link/booking-link.css);
+@import url(../blocks/booking-link/_indent/booking-link_header_indent.css);
+@import url(../blocks/booking-link/_margin-indent/booking-link_about-us_margin-indent.css);
+@import url(../blocks/booking-link/_margin-indent/booking-link_rent_margin-indent.css);
+@import url(../blocks/booking-link/_margin-indent/booking-link_reservation_margin-indent.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__subtitle/card__subtitle.css);
+@import url(../blocks/card/__title/card__title.css);
+
+@import url(../blocks/cards/cards.css);
+
+@import url(../blocks/dots-block/dots-block.css);
+@import url(../blocks/dots-block/_position/dots-block_type_position.css);
+
+@import url(../blocks/dot/dot.css);
+@import url(../blocks/dot/_active/dot_active.css);
+@import url(../blocks/dot/_color/dot_style_color.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link-list/footer__link-list.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__lists/footer__lists.css);
+@import url(../blocks/footer/__lists/_booking/footer__lists_name_booking.css);
+@import url(../blocks/footer/__lists/_contacts/footer__lists_name_contacts.css);
+@import url(../blocks/footer/__lists/_house/footer__lists_name_house.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
+@import url(../blocks/footer/__main-content/footer__main-content.css);
+@import url(../blocks/footer/__phone/footer__phone.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__subtitle/footer__subtitle.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__twitter-icon/footer__twitter-icon.css);
+@import url(../blocks/footer/__vk-icon/footer__vk-icon.css);
+@import url(../blocks/footer/_footer/logo_place_footer.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__list-link/header__list-link.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__lists/header__lists.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+
+@import url(../blocks/interiors/interiors.css);
+@import url(../blocks/interiors/__container/interiors__container.css);
+@import url(../blocks/interiors/__image/interiors__image.css);
+@import url(../blocks/interiors/__img-block/interiors__img-block.css);
+@import url(../blocks/interiors/__img-list/interiors__img-list.css);
+@import url(../blocks/interiors/__main-image/interiors__main-image.css);
+@import url(../blocks/interiors/__title/interiors__title.css);
+
+@import url(../blocks/link-opacity/link-opacity.css);
+
+@import url(../blocks/link-padding-indent/link-padding-indent.css);
+
+@import url(../blocks/link-shadow/link-shadow.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__header-link/logo__header-link.css);
+@import url(../blocks/logo/_header/logo_place_header.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/rent/rent.css);
+@import url(../blocks/rent/__image/rent__image.css);
+@import url(../blocks/rent/__image/_block-second/rent__image_animation_block-second.css);
+@import url(../blocks/rent/__image/_block/rent__image_animation_block.css);
+@import url(../blocks/rent/__image/_position/rent__image_type_position.css);
+@import url(../blocks/rent/__img-block/rent__img-block.css);
+@import url(../blocks/rent/__subtitle/rent__subtitle.css);
+@import url(../blocks/rent/__text-block/rent__text-block.css);
+@import url(../blocks/rent/__title/rent__title.css);
+
+@import url(../blocks/reservation/reservation.css);
+@import url(../blocks/reservation/__subtitle/reservation__subtitle.css);
+@import url(../blocks/reservation/__title/reservation__title.css);
+
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__author/reviews__author.css);
+@import url(../blocks/reviews/__image/reviews__image.css);
+@import url(../blocks/reviews/__subtitle/reviews__subtitle.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+
+@import url(../blocks/section-padding/section-padding.css);
+
+@import url(../blocks/section-subtitle/section-subtitle.css);
+
+@import url(../blocks/section-title/section-title.css);
+
+@import url(../blocks/uprising/uprising.css);

@@ -1,0 +1,11 @@
+.reviews__subtitle {
+  width: 100%;
+  text-align: center;
+  margin: 44px 0 0 0;
+}
+@media screen and (max-width: 907px) {
+  .reviews__subtitle {
+    max-width: 480px;
+    margin-top: 30px;
+  }
+}

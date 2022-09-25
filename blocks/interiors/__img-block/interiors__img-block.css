@@ -1,0 +1,17 @@
+.interiors__img-block {
+  max-width: 1437px;
+  margin-top: 38px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  gap: 3px;
+}
+@media screen and (max-width: 1199px) {
+  .interiors__img-block {
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+  }
+}
+@media screen and (max-width: 570px) {
+  .interiors__img-block {
+    margin-top: 20px;
+  }
+}

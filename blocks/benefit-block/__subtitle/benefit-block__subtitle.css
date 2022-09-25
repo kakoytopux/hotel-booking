@@ -1,0 +1,9 @@
+.benefit-block__subtitle {
+  margin: 24px 0 0 0;
+  max-width: 584px;
+}
+@media screen and (max-width: 1199px) {
+  .benefit-block__subtitle {
+    margin-top: 16px;
+  }
+}

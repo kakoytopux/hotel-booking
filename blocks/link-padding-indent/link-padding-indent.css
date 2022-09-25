@@ -1,0 +1,13 @@
+.link-padding-indent {
+  padding: 16px 32px;
+}
+@media screen and (max-width: 907px) {
+  .link-padding-indent {
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .link-padding-indent {
+    padding: 8px 16px;
+  }
+}

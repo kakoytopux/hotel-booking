@@ -1,0 +1,23 @@
+.benefit-block__image {
+  width: 384px;
+  height: 384px;
+}
+@media screen and (max-width: 1199px) {
+  .benefit-block__image {
+    width: 330px;
+    height: 330px;
+  }
+}
+@media screen and (max-width: 907px) {
+  .benefit-block__image {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .benefit-block__image {
+    width: 200px;
+    height: 200px;
+    grid-row: 2/3;
+  }
+}

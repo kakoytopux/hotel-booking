@@ -1,0 +1,9 @@
+.about-us__title {
+  max-width: 690px;
+  margin: 0;
+}
+@media screen and (max-width: 570px) {
+  .about-us__title {
+    text-align: center;
+  }
+}

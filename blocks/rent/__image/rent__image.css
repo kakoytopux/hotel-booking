@@ -1,0 +1,24 @@
+.rent__image {
+  width: 180px;
+  height: 588px;
+  box-shadow: 0 3px 7px #000;
+  position: relative;
+}
+@media screen and (max-width: 1199px) {
+  .rent__image {
+    width: 140px;
+    height: 488px;
+  }
+}
+@media screen and (max-width: 907px) {
+  .rent__image {
+    width: 100px;
+    height: 388px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .rent__image {
+    width: 80px;
+    height: 300px;
+  }
+}

@@ -1,0 +1,15 @@
+.booking-link_header_indent {
+  padding: 14px 16px;
+}
+@media screen and (max-width: 907px) {
+  .booking-link_header_indent {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .booking-link_header_indent {
+    padding: 8px 12px;
+    margin-top: 20px;
+  }
+}

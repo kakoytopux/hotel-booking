@@ -1,0 +1,40 @@
+@keyframes appearance {
+  from {
+    height: 0;
+    top: -50%;
+  }
+  to {
+    height: 588px;
+    top: 0;
+  }
+}
+@media screen and (max-width: 1199px) {
+  @keyframes appearance {
+    from {
+      height: 0;
+    }
+    to {
+      height: 488px;
+    }
+  }
+}
+@media screen and (max-width: 907px) {
+  @keyframes appearance {
+    from {
+      height: 0;
+    }
+    to {
+      height: 388px;
+    }
+  }
+}
+@media screen and (max-width: 570px) {
+  @keyframes appearance {
+    from {
+      height: 0;
+    }
+    to {
+      height: 300px;
+    }
+  }
+}

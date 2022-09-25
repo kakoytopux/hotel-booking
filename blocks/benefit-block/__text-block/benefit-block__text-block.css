@@ -1,0 +1,19 @@
+.benefit-block__text-block {
+  max-width: 584px;
+}
+@media screen and (max-width: 1199px) {
+  .benefit-block__text-block {
+    max-width: 480px;
+  }
+}
+@media screen and (max-width: 907px) {
+  .benefit-block__text-block {
+    max-width: 380px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .benefit-block__text-block {
+    grid-row: 1/2;
+    text-align: center;
+  }
+}

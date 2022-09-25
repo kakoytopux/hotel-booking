@@ -1,0 +1,17 @@
+.interiors {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+}
+@media screen and (max-width: 907px) {
+  .interiors {
+    padding-top: 60px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .interiors {
+    padding-top: 20px;
+  }
+}

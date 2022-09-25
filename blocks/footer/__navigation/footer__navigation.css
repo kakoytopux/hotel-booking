@@ -1,0 +1,21 @@
+.footer__navigation {
+  display: flex;
+  gap: 94px;
+}
+@media screen and (max-width: 1199px) {
+  .footer__navigation {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 907px) {
+  .footer__navigation {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .footer__navigation {
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+  }
+}

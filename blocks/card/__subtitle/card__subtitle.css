@@ -1,0 +1,9 @@
+.card__subtitle {
+  max-width: 384px;
+  margin: 16px 0 0 0;
+}
+@media screen and (max-width: 570px) {
+  .card__subtitle {
+    margin-top: 10px;
+  }
+}

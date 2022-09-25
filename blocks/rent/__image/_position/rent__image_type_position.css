@@ -1,0 +1,9 @@
+.rent__image_type_position {
+  position: relative;
+  top: 81px;
+}
+@media screen and (max-width: 570px) {
+  .rent__image_type_position {
+    top: 50px;
+  }
+}

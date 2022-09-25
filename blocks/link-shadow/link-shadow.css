@@ -1,0 +1,6 @@
+.link-shadow {
+  transition: box-shadow .2s linear;
+}
+.link-shadow:hover {
+  box-shadow: 0 0 10px #000;
+}

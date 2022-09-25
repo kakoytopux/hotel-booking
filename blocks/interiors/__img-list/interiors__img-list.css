@@ -1,0 +1,19 @@
+.interiors__img-list {
+  max-width: 344px;
+  height: 585px;
+}
+@media screen and (max-width: 1199px) {
+  .interiors__img-list {
+    display: flex;
+    height: auto;
+    grid-row: 2/3;
+    gap: 3px;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 907px) {
+  .interiors__img-list {
+    width: 100%;
+    height: auto;
+  }
+}

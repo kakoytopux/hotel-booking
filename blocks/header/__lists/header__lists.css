@@ -1,0 +1,17 @@
+.header__lists {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 36px;
+  list-style-type: none;
+}
+@media screen and (max-width: 907px) {
+  .header__lists {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .header__lists {
+    gap: 15px;
+  }
+}

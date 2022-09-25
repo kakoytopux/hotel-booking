@@ -1,0 +1,8 @@
+.footer__lists_name_contacts {
+  max-width: 186px;
+}
+@media screen and (max-width: 907px) {
+  .footer__lists_name_contacts {
+    max-width: 100px;
+  }
+}

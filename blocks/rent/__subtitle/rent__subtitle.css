@@ -1,0 +1,16 @@
+.rent__subtitle {
+  max-width: 485px;
+  margin: 24px 0 0 0;
+}
+@media screen and (max-width: 1199px) {
+  .rent__subtitle {
+    max-width: 380px;
+    margin-top: 16px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .rent__subtitle {
+    font-size: 14px;
+    text-align: center;
+  }
+}

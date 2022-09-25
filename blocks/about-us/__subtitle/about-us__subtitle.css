@@ -1,0 +1,15 @@
+.about-us__subtitle {
+  margin: 28px 0 0 0;
+  max-width: 584px;
+}
+@media screen and (max-width: 1199px) {
+  .about-us__subtitle {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .about-us__subtitle {
+    margin-top: 10px;
+    text-align: center;
+  }
+}

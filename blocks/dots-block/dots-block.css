@@ -1,0 +1,13 @@
+.dots-block {
+  max-width: 71px;
+  position: absolute;
+  bottom: 29px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+@media screen and (max-width: 570px) {
+  .dots-block {
+    gap: 10px;
+  }
+}

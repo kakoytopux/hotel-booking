@@ -1,0 +1,19 @@
+.about-us {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+@media screen and (max-width: 1199px) {
+  .about-us {
+    min-height: 500px;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 570px) {
+  .about-us {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

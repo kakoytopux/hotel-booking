@@ -1,0 +1,16 @@
+.footer__subtitle {
+  max-width: 186px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #D9DBDE;
+  margin: 13px 0 0 0;
+}
+@media screen and (max-width: 907px) {
+  .footer__subtitle {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 8px;
+  }
+}

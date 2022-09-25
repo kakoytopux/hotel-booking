@@ -1,0 +1,16 @@
+.footer__social {
+  margin-top: 39px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 907px) {
+  .footer__social {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .footer__social {
+    justify-content: center;
+  }
+}

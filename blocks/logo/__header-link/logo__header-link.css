@@ -1,0 +1,9 @@
+.logo__header-link {
+  color: #192252;
+  text-decoration: none;
+}
+.logo__header-link:hover {
+  text-shadow: 0 3px 4px #848FAC;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}

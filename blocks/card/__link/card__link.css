@@ -1,0 +1,20 @@
+.card__link {
+  text-decoration: none;
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #424F7B;
+  font-size: 18px;
+  line-height: 150%;
+  max-width: 129px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.card__link::after {
+  content: url(../../../images/arrow-right.svg);
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  align-self: center;
+}

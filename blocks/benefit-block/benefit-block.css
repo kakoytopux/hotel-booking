@@ -1,0 +1,29 @@
+.benefit-block {
+  width: 100%;
+  min-height: 384px;
+  display: flex;
+  gap: 126px;
+  margin-top: 32px;
+}
+.benefit-block:first-of-type {
+  margin: 0;
+}
+@media screen and (max-width: 1199px) {
+  .benefit-block {
+    gap: 80px;
+    min-height: 0;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 907px) {
+  .benefit-block {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .benefit-block {
+    display: grid;
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    justify-items: center;
+  }
+}

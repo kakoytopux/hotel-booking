@@ -1,0 +1,23 @@
+.about-us__text-block {
+  margin: 108px 0 0 126px;
+  max-width: 690px;
+}
+@media screen and (max-width: 1199px) {
+  .about-us__text-block {
+    max-width: 500px;
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 907px) {
+  .about-us__text-block {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .about-us__text-block {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

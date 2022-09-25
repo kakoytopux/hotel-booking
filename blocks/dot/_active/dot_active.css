@@ -1,0 +1,11 @@
+.dot_active {
+  width: 12px;
+  height: 12px;
+  background-color: #FAB047;
+}
+@media screen and (max-width: 570px) {
+  .dot_active {
+    width: 9px;
+    height: 9px;
+  }
+}
