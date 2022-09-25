@@ -548,6 +548,14 @@
 
 
 @media screen and (max-width: 1199px) {
+  @keyframes appearance {
+    from {
+      height: 0;
+    }
+    to {
+      height: 488px;
+    }
+  }
   .header {
     justify-content: space-around;
   }
@@ -604,6 +612,7 @@
   }
   .benefit-block {
     gap: 80px;
+    min-height: 0;
     justify-content: center;
   }
   .benefit-block__text-block {
@@ -627,15 +636,19 @@
     height: auto;
     grid-row: 2/3;
     gap: 3px;
-    max-width: 300px;
+    max-width: 100%;
+  }
+  .interiors__image {
+    width: 33%;
   }
 
 
   .reservation {
-    min-height: 1720px;
+    min-height: 2400px;
   }
   .cards {
     gap: 50px;
+    display: grid;
   }
   .card__image {
     width: 100%;
@@ -651,5 +664,181 @@
 }
 
 @media screen and (max-width: 907px) {
+  @keyframes appearance {
+    from {
+      height: 0;
+    }
+    to {
+      height: 388px;
+    }
+  }
+  .section-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .section-title {
+    font-size: 18px;
+  }
+  
+  .section-subtitle {
+    font-size: 12px;
+  }
+  .link-padding-indent {
+    padding: 10px 20px;
+  }
+
+
+
+  .logo {
+    font-size: 20px;
+  }
+  .header__lists {
+    gap: 30px;
+  }
+  .header__list {
+    font-size: 12px;
+  }
+  .booking-link {
+    font-size: 12px;
+  }
+  .booking-link_header_padding-indent {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+
+  .rent {
+    min-height: 500px;
+  }
+  .rent__text-block {
+    margin: 135px 24px 0 0;
+    max-width: 587px;
+  }
+  .rent__title {
+    font-size: 22px;
+  }
+  .booking-link_rent_margin-indent {
+    margin-top: 40px;
+  }
+  .rent__image {
+    width: 100px;
+    height: 388px;
+  }
+
+
+
+  .about-us__text-block {
+    margin-left: 30px;
+  }
+  .about-us__image {
+    width: 300px;
+    height: 430px;
+  }
+
+
+
+
+  .benefit-block {
+    gap: 20px;
+  }
+  .benefit-block__text-block {
+    max-width: 380px;
+  }
+  .benefit-block__image {
+    width: 300px;
+    height: 300px;
+  }
+
+
+
+  .interiors {
+    padding-top: 60px;
+  }
+  .interiors__img-list {
+    width: 100%;
+    height: auto;
+  }
+  .interiors__image {
+    width: 33%;
+    height: 150px;
+  }
+  .interiors__main-image {
+    height: 400px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .reservation {
+    min-height: 2220px;
+  }
+  .reservation__subtitle {
+    max-width: 400px;
+    margin-top: 16px;
+  }
+  .booking-link_reservation_margin-indent {
+    margin-top: 25px;
+  }
+  .cards {
+    gap: 50px;
+    margin-top: 50px;
+  }
+
+  .card__title {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+
+
+
+  .reviews__image {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+  }
+  .reviews__subtitle {
+    max-width: 480px;
+    margin-top: 30px;
+  }
+  .reviews__author {
+    font-size: 18px;
+  }
+
+
+
+
+  .footer__subtitle {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 8px;
+  }
+  .footer__social {
+    margin-top: 25px;
+  }
+  .footer__title {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .footer__list {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  .footer__lists_name_contacts {
+    max-width: 100px;
+  }
+  .footer__navigation {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 570px) {
   
 }
