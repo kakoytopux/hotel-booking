@@ -13,5 +13,6 @@
 @media screen and (max-width: 570px) {
   .interiors__img-block {
     margin-top: 20px;
+    gap: 0;
   }
 }

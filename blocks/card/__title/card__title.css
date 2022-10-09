@@ -3,17 +3,12 @@
   line-height: 150%;
   font-family: 'Montserrat';
   font-weight: 600;
-  margin: 32px 0 0 0;
+  margin: 30px 0 0 0;
   max-width: 238px;
 }
 @media screen and (max-width: 907px) {
   .card__title {
     font-size: 20px;
     margin-top: 25px;
-  }
-}
-@media screen and (max-width: 570px) {
-  .card__title {
-    margin-top: 20px;
   }
 }
