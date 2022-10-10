@@ -1,7 +1,7 @@
 .header__list {
   font-size: 16px;
   line-height: 19px;
-  font-family: 'Inter';
+  font-family: 'Inter', 'calibri', sans-serif;
   font-weight: 500;
 }
 @media screen and (max-width: 907px) {
