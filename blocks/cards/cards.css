@@ -4,7 +4,6 @@
   margin-top: 88px;
   width: 100%;
   justify-content: center;
-  flex-grow: 1;
   flex-wrap: wrap;
 }
 @media screen and (max-width: 1199px) {

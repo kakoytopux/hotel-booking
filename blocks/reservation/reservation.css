@@ -3,15 +3,4 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 1016px;
-}
-@media screen and (max-width: 1199px) {
-  .reservation {
-    min-height: 2400px;
-  }
-}
-@media screen and (max-width: 907px) {
-  .reservation {
-    min-height: 2220px;
-  }
 }

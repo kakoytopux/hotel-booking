@@ -7,9 +7,7 @@
   line-height: 150%;
   max-width: 129px;
   display: flex;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  margin-top: 32px;
 }
 .card__link::after {
   content: url(../../../images/arrow-right.svg);
