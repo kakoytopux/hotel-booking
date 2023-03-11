@@ -14,4 +14,4 @@
 
 -----
 
-**Ссылка проекта на GitHub Pages: https://puxichh.github.io/hotel-booking/**
+**Ссылка проекта на GitHub Pages: https://kakoytopux.github.io/hotel-booking/**
